@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:wght@300,400,500,700&display=swap);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+body {
+  background: url("/img/home-bg.jpg") no-repeat;
+  background-size: 150%;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.movies .card {
+  width: calc(100% / 4 - 40px);
+  padding: 20px;
+  margin: 20px;
+  background: url("/img/card-bg-2.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.movies .card span:not(.card > span) {
+  color: yellow;
+  font-weight: 700;
+}
+
+.movies .card > span {
+  display: block;
+}
+
+.movies .card > * {
+  margin: 10px 0;
+  text-shadow: 0 2px 2px #000;
+}
+

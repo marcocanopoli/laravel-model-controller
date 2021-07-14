@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: url('/img/home-bg.jpg') no-repeat;
+    background-size: 150%;
+}
